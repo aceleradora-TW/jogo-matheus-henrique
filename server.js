@@ -9,10 +9,6 @@ let randomNumber = (min, max) => {
   return parseInt(Math.random() * (max - min) + min)
 }
 
-let randomNumber = function (min, max) {
-
-}
-
 let rightNumber = randomNumber(0, 10)
 
 app.get('/', (req, res) => {
